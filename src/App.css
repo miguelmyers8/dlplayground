@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .App-logo {
@@ -35,4 +35,221 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/*
+-----------------------------------------------------------------
+*/
+
+
+#DataFetchForm {
+  height: 20px;
+}
+
+#DataFetchFormButton{
+height: 20px;
+width: -5em;
+top:-2.5px;
+left: 10px;
+position: relative;
+font-size: 10px;
+}
+
+#DataGeneratorContainer{
+text-align:center;
+width: 350px;
+padding-top: 20px;
+border: solid;
+
+}
+
+#DataGeneratorContainerLeft{
+text-align:center;
+width: 350px;
+padding-top: 20px;
+border: dotted;
+left: 0;
+}
+
+
+#wrapper {
+  display: flex;
+}
+
+#imggallery{
+  border: solid;
+ margin:0 auto;
+ width: 100%;
+ height: 100vh;
+ text-align: center;
+}
+
+.rightnav{
+  height: 330px;
+  width: 260px;
+  box-shadow:  12px 12px 24px #e6e6e6,
+               -12px -12px 24px #ffffff;
+  position: fixed;
+  z-index: 1;
+  top: 20px;
+  right: 25px;
+  background-color: white;
+  overflow-x: hidden;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.json{
+  border: solid;
+  height: 290px;
+}
+
+.cloudsmith{
+  padding-right: 30px;
+}
+
+.buffer{
+  padding-right: 10px;
+}
+
+.circle{
+  padding-left: 11px;
+}
+
+.gragh{
+  padding-right: 12px;
+}
+
+.utils{
+  padding-right: 27px;
+}
+
+.utils_container {
+  border-radius: 12px;
+  position: fixed;
+  top:295px;
+  left:190px;
+  width: 150px;
+  z-index: 1;
+  background-color: white;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.layers_container {
+  border-radius: 12px;
+  position: fixed;
+  top:295px;
+  left: 190px;
+  width: 150px;
+  z-index: 1;
+  background-color: white;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.hidden{
+  display: none;
+}
+
+.logger_Info{
+  height: 260px;
+  width: 260px;
+  box-shadow:  12px 12px 24px #e6e6e6,
+               -12px -12px 24px #ffffff;
+  position: fixed;
+  z-index: 1;
+  top: 400px;
+  right: 23px;
+  background-color: white;
+  overflow-x: hidden;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.layers_container a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  display: block;
+}
+
+.utils_container a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  display: block;
+}
+
+.main_ {
+  background-color: #EAF0F1;
+height: 100vh;
+
+}
+.end-btn-container{
+  position: absolute;
+}
+
+.start-btn-container{
+  position: absolute;
+  left:  100px;
+}
+
+#end{
+position: absolute;
+left:-17px;
+top:-10px;
+padding: 5.5px 5.5px;
+font-size: 9px;
+width: 5px;
+height:5px;
+}
+
+
+
+#start{
+  position: absolute;
+  right:-8px;
+  top:-10px;
+  padding: 5.5px 5.5px;
+  font-size: 9px;
+  width: 5px;
+  height:5px;
+  }
+
+body , #root , .container-fluid, .row, #r-container, #PlayGround {
+  height: 100vh;
+}
+
+.mainmenu{
+  text-align: center;
+  top:295px;
+  left: 53px;
+  box-shadow:  12px 12px 24px #e6e6e6,
+               -12px -12px 24px #ffffff;
+  background-color: white;
+  border-radius: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position:fixed;
+  display: block;
+  font-size: 12px;
+}
+
+
+.draggables{
+  text-align: center;
+  border-radius: 5px;
+  background: #FFFFFF;
+  box-shadow:  16px 16px 32px #e3e3e3,
+               -16px -16px 32px #ffffff;  top:50px;
+  left:420px;
+  width: 90px;
+  height: 40px;
+  position: relative;
+  font-size: 12px;
 }
